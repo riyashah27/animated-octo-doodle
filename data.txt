@@ -1,0 +1,41 @@
+3 users.....Andy Betty Mike---> 
+
+    void makeDetailsA(){
+        empno = 10;
+        name = "Andy";
+        availableLeave = 3;
+        currentLeaveCount = 7;
+
+        LeaveRequest e = new LeaveRequest();
+        e.reason = "Sick Leave";
+        e.requestId = 0;
+        e.days = 2;
+        leaveRequest.add(e);
+
+        LeaveRequest f = new LeaveRequest();
+        f.reason = "Marriage";
+        f.requestId = 1;
+        f.days = 5;
+        leaveRequest.add(f);
+    }
+
+    void makeDetailsB(){
+        empno = 11;
+        name = "Betty";
+        availableLeave = 10;
+        currentLeaveCount = 0;
+    }
+
+    void makeDetailsC(){
+        empno = 12;
+        name = "Mike";
+        availableLeave = 5;
+        currentLeaveCount = 5;
+
+        LeaveRequest e = new LeaveRequest();
+        e.reason = "Vacation";
+        e.requestId = 0;
+        e.days = 5;
+        leaveRequest.add(e);
+    }
+}
